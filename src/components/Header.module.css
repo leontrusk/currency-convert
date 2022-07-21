@@ -1,0 +1,40 @@
+.Header {
+    width: 450px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: linear-gradient(rgb(0, 38, 255), rgb(0, 183, 255))
+}
+
+.Title {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 1px 5px black;
+}
+
+.currencybox {
+    width: 150px;
+    height: 30px;
+    background-color: aquamarine;
+    display: inline-block;
+}
+.currencyName {
+    width: 75px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    display: inline;
+    padding: 0 10px;
+}
+
+.currency {
+    width: 75px;
+    height: 30px;
+    background-color: aqua;
+    display: inline;
+    padding: 0 10px;
+}
+
+

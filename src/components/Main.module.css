@@ -1,0 +1,31 @@
+.Main {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(rgb(0, 208, 255), rgb(0, 183, 255));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    
+}
+
+.container {
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+div {
+    margin-left: 10px;
+}
+
+.dropdown {
+    width: 130px;
+}
+.button {
+left: 35% !important;
+background-color: yellow;
+}
+
+.button :hover {
+    background-color: greenyellow !important;
+}
