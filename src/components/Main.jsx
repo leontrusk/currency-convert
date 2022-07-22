@@ -17,7 +17,7 @@ const Main = () => {
 
 
     async function getdata(){
-        const response = await Axios.get("https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5");
+        const response = await Axios.get("https://api.minfin.com.ua/nbu/0f105820623a4684ccb2801d524375819ea8f2c5/");
         const result = response.json();
         console.log(response.data);
         setcountry(result.data.rate);
@@ -34,7 +34,7 @@ const Main = () => {
             <form onSubmit={convert}>
             <div className={classes.container}>
                 <TextField variant="outlined" value={text1 || ""} onChange={(e)=>settext1(e.target.value)} />
-                <FormControl className={classes.dropdown} variant="outlined" onChange={(e)=>setvalue1(e.target.value)} >
+                <FormControl className={classes.dropdown} variant="outlined" onChange={(e)=>setvalue1(e.target.value)} autoComplete="off" >
                     <Select native>
                         {Object.keys(country).map((value,index)=>
                         <option key={index} value={country[value]}>{value}</option>)}
